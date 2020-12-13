@@ -1,0 +1,6 @@
+/* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
+
+body {
+    margin: 0;
+    background-color:lightsteelblue;
+}
