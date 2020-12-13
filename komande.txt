@@ -1,0 +1,12 @@
+git clone _________adresa - za kloniranje repository kojeg nemamo lokalno
+
+git add .  -dodaje nove fajle tj izmjene na stage area
+
+git commit -m "to i to sam uradio"
+
+OBAVEZENO PRVO PULL PA PUSH
+
+git pull
+
+git push
+
