@@ -1,5 +1,7 @@
 /* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
-
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     background-color:lightsteelblue;
@@ -41,13 +43,24 @@ body {
     text-align: justify;
 }
 
+.kolone {
+    float: left;
+    width: 50%;
+    
+  }
+   
+  .redovi:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
 
-
-
-
-
-
-
+  @media screen and (max-width: 600px) {
+    .kolone {
+      width: 100%;
+    }
+  }
 
 
 
