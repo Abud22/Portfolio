@@ -67,3 +67,18 @@ footer {
   background: #ddd;
   margin-top: 20px;
 }
+
+.linkovi h4{
+  float: left;
+}
+
+#link {
+  display: inline-block;
+  margin: 0 12%;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}

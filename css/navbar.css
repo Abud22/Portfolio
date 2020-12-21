@@ -52,3 +52,25 @@
     margin-top: 20px;
   }
 
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .linkovi h4{
+    float: left;
+}
+
+  #link {
+    display: inline-block;
+    margin: 0 12%;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+ }
+
