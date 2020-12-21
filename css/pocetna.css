@@ -52,6 +52,11 @@ body {
 #vjestine p {
     text-align: justify;
 }
+.redovi {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
 
 .kolone {
     float: left;
@@ -68,18 +73,43 @@ body {
   /*----------------------------------------------------------------------------------------*/
 
 
-  .form-input {
-      border: 1px solid blue;
-      max-width: 50%;
+    #forma {
+      border: 1px solid black;
+      max-width: 60%;
       background-color: lightgrey;
       margin: auto;
-      
+      margin-bottom: 10%;
+      padding: 20px;
+      border-radius: 5px;
   }
-  label, input {
+
+  .inp {
+      margin-left: 20%;
+      max-width: 500px;
+  }
+  
+  #forma h3 {
+      text-align: center;
+  }
+  .tekstarea {
+      display: inline-block;
+      vertical-align: top;
+  }
+  label {
+      display: inline-block;
+      width: 80px;
+  }
+
+  label, input ,textarea{
       padding: 10px;
-      margin: 5px;
-      position: relative;
-      left: 10%;
+      margin: 10px;
+  }
+  input {
+      display: inline-block;
+  }
+  #dugme {
+      margin-left: 50%;
+      padding: 5px 10px 5px 10px;
   }
 
 
