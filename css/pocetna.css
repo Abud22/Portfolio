@@ -16,18 +16,44 @@ body {
     max-width: 50%;
     padding: 5px 15px 5px 15px;
     border: 1px solid green;
-    
-    
 }
-#biografija h2 {
-    font-family: 'Courier New', Courier, monospace;
-    margin:auto;
-    overflow: auto;
+.naslov {
     text-align: center;
 }
-#biografija p { 
-    text-align: justify;
+
+
+.slikabio {
+    min-width: 205px;
+    padding: 5px;
+ }
+ #s1 {
+     max-width: 30%;
+ }
+ #p1 {
+     margin-left: 5%;
+     max-width: 60%;
+ }
+
+#s1, #p1 {
+    display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #vjestine {
