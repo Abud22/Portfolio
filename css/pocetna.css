@@ -64,7 +64,6 @@ body {
     
   }
 
-<<<<<<< HEAD
   /*----------------------------------------------------------------------------------------*/
 
 
@@ -72,18 +71,9 @@ body {
       border: 1px solid blue;
       max-width: 50%;
       background-color: lightgrey;
-=======
 
-  .forma {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      height: 480px;
-      width: 100%;
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-
-  #forma{
+ 
+  #forma {
       background-color: rgb(96, 194, 96);
       width: 30%;
       margin: auto;
@@ -94,7 +84,6 @@ body {
   }
 
   #ime, #prezime, #mail, #poruka {
->>>>>>> 1f52b0a49e58101f778189bb46f238f298572460
       margin: auto;
       margin: 10px;
   }
