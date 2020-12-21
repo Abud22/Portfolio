@@ -52,27 +52,32 @@ body {
 #vjestine p {
     text-align: justify;
 }
+
+/*-----------------------------------------------------------------------------------------*/
+/*projekti*/
 .redovi {
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 20%;
 
 }
-
 .kolone {
-    float: left;
-    width: 50%;
-    
+    display: inline-block;
+    background-color: rgb(233, 224, 224);
+    width: 35%;
+    margin-left:10px;
+    margin-right: 3%;
+    vertical-align: top;
+    padding: 15px;   
   }
-  .redovi:after {
-    content: "";
-    display: table;
-    clear: both;
-    
+  .kolone p {
+    overflow: hidden; /*Da tekst ne bi izlazio iz svog diva*/
   }
+ 
 
   /*----------------------------------------------------------------------------------------*/
 
-
+/* forma css*/
     #forma {
       border: 1px solid black;
       max-width: 60%;
