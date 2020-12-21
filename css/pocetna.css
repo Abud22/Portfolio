@@ -35,21 +35,19 @@ body {
 
 
 /*Moje vjestine div */
-#vjestine {
+.vjestine {
     background-color: rgb(166, 240, 166);
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
     max-width: 60%;
-    padding: 5px 15px 5px 15px;
+    padding: 10px 15px 10px 15px;
     border: 1px solid green;
 }
-#vjestine h2 {
+.vjestine h2 {
     margin:auto;
-    overflow: auto;
     text-align: center;
 }
-#vjestine p {
+.vjestine p {
     text-align: justify;
 }
 
@@ -58,7 +56,7 @@ body {
 .redovi {
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: 20%;
+    margin-left: 18%;
     max-width: 60%;
 
 }
@@ -66,9 +64,9 @@ body {
     display: inline-block;
     border: 1px solid black;
     background-color: rgb(233, 224, 224);
-    width: 38%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 3%;
     vertical-align: top;
     padding: 30px;   
@@ -80,10 +78,10 @@ body {
 
   /*----------------------------------------------------------------------------------------*/
 
-/* forma css*/
+/* forma */
     #forma {
       border: 1px solid black;
-      max-width: 60%;
+      max-width: 35%;
       background-color: lightgrey;
       margin: auto;
       margin-bottom: 10%;
@@ -118,7 +116,7 @@ body {
       display: inline-block;
   }
   #dugme {
-      margin-left: 50%;
+      margin-left: 45%;
       padding: 5px 10px 5px 10px;
   }
 
