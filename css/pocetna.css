@@ -1,45 +1,66 @@
 /* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
-
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     background-color:lightsteelblue;
 }
 
 
-/*prvi div- Moja biografia*/
+
 #biografija {
     background-color: rgb(166, 240, 166);
     margin: auto;
     margin-top: 5%;
-    max-width: 60%;
+    max-width: 50%;
+    padding: 5px 15px 5px 15px;
     border: 1px solid green;
 }
 .naslov {
     text-align: center;
 }
-.top {
-    margin-left: 5%;
-    max-width: 25%;
-    min-width: 180px;
-    margin-bottom: 5%;
-}
-.tekst {
-    margin-left:3%;
-    max-width: 60%;
-    display: inline-block ;
-    vertical-align: top;
-    text-align: center;
-    padding: 0;
-}
-/*---------------------------------------------------------------------------------------*/
 
-/*Moje vjestine div */
+
+.slikabio {
+    min-width: 205px;
+    padding: 5px;
+ }
+ #s1 {
+     max-width: 30%;
+ }
+ #p1 {
+     margin-left: 5%;
+     max-width: 60%;
+ }
+
+#s1, #p1 {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #vjestine {
-    background-color: rgb(166, 240, 166);
+    background-color: rgb(157, 201, 157);
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
-    max-width: 60%;
+    max-width: 50%;
     padding: 5px 15px 5px 15px;
     border: 1px solid green;
 }
@@ -64,15 +85,6 @@ body {
     
   }
 
-<<<<<<< HEAD
-  /*----------------------------------------------------------------------------------------*/
-
-
-  .form-input {
-      border: 1px solid blue;
-      max-width: 50%;
-      background-color: lightgrey;
-=======
 
   .forma {
       margin-top: 20px;
@@ -94,7 +106,6 @@ body {
   }
 
   #ime, #prezime, #mail, #poruka {
->>>>>>> 1f52b0a49e58101f778189bb46f238f298572460
       margin: auto;
       margin: 10px;
   }
@@ -126,21 +137,13 @@ body {
     .kolone {
       width: 100%;
     }
-
-    .top {
-        margin-left: 20%;
-    }
-    .tekst {
-        margin-left: 20%;
-        text-align: justify;
-
-    }
-
-
-
+  }
+#biografija img {
+    width: 30%;
+    height: auto;
+    
 
   }
-
 
 
 footer {
