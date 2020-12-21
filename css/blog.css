@@ -4,3 +4,14 @@ body {
     margin: 0;
     background-color:lightsteelblue;
 }
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  

@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
     margin-top: 10%;
-    font-family: "neon", sans-serif;
+    font-family: "Inconsolata", sans-serif;
     font-size: 2em;
     text-align: center;
 }
@@ -22,4 +22,12 @@ h2 {
 /* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
 #navbar  li a:hover:not(.active) {
     background-color:grey;
+  }
+
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
   }

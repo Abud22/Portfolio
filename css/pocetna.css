@@ -7,6 +7,8 @@ body {
     background-color:lightsteelblue;
 }
 
+
+
 #biografija {
     background-color: rgb(166, 240, 166);
     margin: auto;
@@ -14,6 +16,8 @@ body {
     max-width: 50%;
     padding: 5px 15px 5px 15px;
     border: 1px solid green;
+    
+    
 }
 #biografija h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -48,24 +52,47 @@ body {
     width: 50%;
     
   }
-   
   .redovi:after {
     content: "";
     display: table;
     clear: both;
     
   }
-
-  @media screen and (max-width: 600px) {
-    .kolone {
-      width: 100%;
-    }
+  .form-input {
+      border: 1px solid blue;
+      max-width: 50%;
+      background-color: lightgrey;
+      margin: auto;
+      
+  }
+  label, input {
+      padding: 10px;
+      margin: 5px;
+      position: relative;
+      left: 10%;
   }
 
 
 
 
 
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .kolone {
+      width: 100%;
+    }
+  }
+#biografija img {
+    width: 30%;
+    height: auto;
+    
+
+  }
 
 
 footer {
