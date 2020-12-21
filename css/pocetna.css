@@ -13,46 +13,25 @@ body {
     background-color: rgb(166, 240, 166);
     margin: auto;
     margin-top: 5%;
-    max-width: 50%;
-    padding: 5px 15px 5px 15px;
+    max-width: 60%;
     border: 1px solid green;
 }
 .naslov {
     text-align: center;
 }
-
-
-.slikabio {
-    min-width: 205px;
-    padding: 5px;
- }
- #s1 {
-     max-width: 30%;
- }
- #p1 {
-     margin-left: 5%;
-     max-width: 60%;
- }
-
-#s1, #p1 {
-    display: inline-block;
+.top {
+    max-width: 25%;
+    max-height: 300px ;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tekst {
+    max-width: 60%;
+    margin-left: 5%;
+    display: inline-block ;
+    vertical-align: top;
+    text-align: justify;
+}
 
 
 
