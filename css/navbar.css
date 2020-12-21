@@ -45,12 +45,6 @@
       height: 16px;
   }
 
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
 
   footer {
     padding: 20px;
@@ -59,16 +53,20 @@
     margin-top: 20px;
   }
 
-  .linkovi h4{
+.linkovi h4{
     float: left;
 }
 
-  #link {
+#link {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:rgb(209, 209, 209);
     display: inline-block;
     margin: 0 12%;
     text-decoration: none;
-    color: black;
-    font-weight: 700;
+    color: #333;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
 

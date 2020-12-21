@@ -15,23 +15,25 @@ body {
 
 .galerija {
   display: inline-table;
-    border: 1px solid #ccc;
-    width: 20%;
+    border: 1px solid rgb(24, 24, 24);
+    width: 25%;
+    margin: 4%;
   }
   
   .galerija:hover {
     border: 1px solid #777;
+    background-color: lightblue;
   }
   
   .galerija video {
-    margin: 20px;
+    margin: 5%;
     width: 500px;
     height: 300px;
   }
   .galerija img {
     margin: 20px;
-    width: 500px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
   }
   
   .opis {
@@ -60,10 +62,11 @@ body {
   }
   
 
-footer {
+
+  footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(73, 73, 73);
     margin-top: 20px;
   }
 
@@ -72,12 +75,17 @@ footer {
 }
 
 #link {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:rgb(209, 209, 209);
     display: inline-block;
     margin: 0 12%;
     text-decoration: none;
     color: #333;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
 
  }
+

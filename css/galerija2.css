@@ -1,39 +1,46 @@
 /* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
 
 body {
-    margin: 0;
-    background-color:lightsteelblue;
-    
+  margin: 0;
+  background-color:rgb(154, 187, 230);
 }
 
 .responsive {
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  width: 80%;
-  background-size: contain;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 30px;
+width: 80%;
+background-size: contain;
 }
 
 .galerija {
-  display: inline-table;
-    border: 1px solid rgb(202, 193, 193);
-    width: 20%;
-  }
-  
-  .galerija:hover {
-    border: 1px solid #777;
-  }
-  
-  .galerija video {
-    margin: 20px;
-    width: 500px;
-    height: 300px;
-  }
-  .galerija img {
-    margin: 20px;
-    width: 500px;
-    height: 300px;
-  }
+display: inline-table;
+  border: 1px solid rgb(214, 0, 0);
+  width: 25%;
+  margin: 4%;
+}
+
+.galerija:hover {
+  border: 2px double rgb(0, 0, 0);
+  background-color: lightblue;
+}
+
+.galerija video {
+  margin: 5%;
+  width: 500px;
+  height: 300px;
+}
+.galerija img {
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+}
+
+.opis {
+  padding: 10px;
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 700px) {
   .responsive {
@@ -48,13 +55,18 @@ body {
   }
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 footer {
-  display: block;
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: rgb(73, 73, 73);
   margin-top: 20px;
 }
 
@@ -63,12 +75,17 @@ footer {
 }
 
 #link {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:rgb(209, 209, 209);
   display: inline-block;
   margin: 0 12%;
   text-decoration: none;
   color: #333;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
 
 }
+

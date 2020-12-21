@@ -151,13 +151,12 @@ body {
 
 
 
-footer {
+  footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(73, 73, 73);
     margin-top: 20px;
   }
-
 .linkovi h4{
     float: left;
 }
@@ -166,7 +165,7 @@ footer {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    background-color:rgb(166, 240, 166);
+    background-color:rgb(209, 209, 209);
     display: inline-block;
     margin: 0 12%;
     text-decoration: none;
