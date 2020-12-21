@@ -6,7 +6,7 @@ body {
 }
 
 
-
+/*prvi div- Moja biografia*/
 #biografija {
     background-color: rgb(166, 240, 166);
     margin: auto;
@@ -30,16 +30,16 @@ body {
     vertical-align: top;
     text-align: center;
     padding: 0;
-    overflow: hidden;
 }
+/*---------------------------------------------------------------------------------------*/
 
-
-
+/*Moje vjestine div */
 #vjestine {
-    background-color: rgb(157, 201, 157);
+    background-color: rgb(166, 240, 166);
     margin: auto;
     margin-top: 5%;
-    max-width: 50%;
+    margin-bottom: 5%;
+    max-width: 60%;
     padding: 5px 15px 5px 15px;
     border: 1px solid green;
 }
@@ -63,6 +63,10 @@ body {
     clear: both;
     
   }
+
+  /*----------------------------------------------------------------------------------------*/
+
+
   .form-input {
       border: 1px solid blue;
       max-width: 50%;
