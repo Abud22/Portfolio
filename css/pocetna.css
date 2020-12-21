@@ -1,66 +1,45 @@
 /* Menu je uvezen iz vanjske css skripte koja se zove cssvbar.css*/
-*{
-    box-sizing: border-box;
-}
+
 body {
     margin: 0;
     background-color:lightsteelblue;
 }
 
 
-
+/*prvi div- Moja biografia*/
 #biografija {
     background-color: rgb(166, 240, 166);
     margin: auto;
     margin-top: 5%;
-    max-width: 50%;
-    padding: 5px 15px 5px 15px;
+    max-width: 60%;
     border: 1px solid green;
 }
 .naslov {
     text-align: center;
 }
-
-
-.slikabio {
-    min-width: 205px;
-    padding: 5px;
- }
- #s1 {
-     max-width: 30%;
- }
- #p1 {
-     margin-left: 5%;
-     max-width: 60%;
- }
-
-#s1, #p1 {
-    display: inline-block;
+.top {
+    margin-left: 5%;
+    max-width: 20%;
+    min-width: 180px;
+    margin-bottom: 5%;
 }
+.tekst {
+    margin-left:3%;
+    max-width: 60%;
+    display: inline-block ;
+    vertical-align: top;
+    text-align: center;
+    padding: 0;
+}
+/*---------------------------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Moje vjestine div */
 #vjestine {
-    background-color: rgb(157, 201, 157);
+    background-color: rgb(166, 240, 166);
     margin: auto;
     margin-top: 5%;
-    max-width: 50%;
+    margin-bottom: 5%;
+    max-width: 60%;
     padding: 5px 15px 5px 15px;
     border: 1px solid green;
 }
@@ -85,7 +64,6 @@ body {
     
   }
 
-<<<<<<< HEAD
   /*----------------------------------------------------------------------------------------*/
 
 
@@ -93,37 +71,15 @@ body {
       border: 1px solid blue;
       max-width: 50%;
       background-color: lightgrey;
-=======
->>>>>>> 100d60ca514ffe5878a12408a9bcc06dd3949a55
-
- 
-  #forma {
-      background-color: rgb(96, 194, 96);
-      width: 30%;
       margin: auto;
-      margin-top: 20px;
-      max-height: 450px;
-      max-width: 350px;
-      height: 430px;
+      
   }
-
-  #ime, #prezime, #mail, #poruka {
-      margin: auto;
-      margin: 10px;
+  label, input {
+      padding: 10px;
+      margin: 5px;
+      position: relative;
+      left: 10%;
   }
-
-  #h3 {
-      padding: 11px;
-  }
-
-  #forma label{
-    padding-left: 15px;
-  }
-
-  #dugme {
-      float: right;
-  }
-
 
 
 
@@ -139,13 +95,21 @@ body {
     .kolone {
       width: 100%;
     }
-  }
-#biografija img {
-    width: 30%;
-    height: auto;
-    
+
+    .top {
+        margin-left: 20%;
+    }
+    .tekst {
+        margin-left: 20%;
+        text-align: justify;
+
+    }
+
+
+
 
   }
+
 
 
 footer {
