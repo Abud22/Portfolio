@@ -57,27 +57,31 @@
             </div>
           </div>
 
-
-          <div class="form-input">
-            <label for="name">Ime</label>
-            <input type="text" id="name" placeholder="Unesite vaše ime" /> <br>
-           
-            <label for="name">Prezime</label>
-            <input type="text" id="name" placeholder="Unesite vaše prezime" /> <br>
+        <div class="forma">
           
-            <label for="mail">E-mail</label>
+          <form id="forma">
+            <h3 id="h3">Kontakt forma</h3>
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" placeholder="Unesite vaše ime" /> <br>
+           
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" placeholder="Unesite vaše prezime" /> <br>
+          
+            <label for="mail">E-mail:</label>
             <input type="email" id="mail" placeholder="Unesite vaš email" > <br>
           
-            <label for="message">Tekst poruke</label>
+            <label for="poruka">Tekst poruke:</label><br>
             <textarea
-              id="message"
+              id="poruka"
               placeholder="Unesite tekst Vaše poruke"
+              cols="32"
+              rows="10"
+              style="resize: none;"
             ></textarea> <br> <br>
-          
-           <div class="form-btn">
-             <button type="button" class="btn">Pošalji</button>
-           </div>
-          </div>
+
+             <button type="submit" id="dugme">Pošalji</button>
+          </form>
+        </div>
 
          
 

@@ -64,6 +64,7 @@ body {
     
   }
 
+<<<<<<< HEAD
   /*----------------------------------------------------------------------------------------*/
 
 
@@ -71,15 +72,45 @@ body {
       border: 1px solid blue;
       max-width: 50%;
       background-color: lightgrey;
+=======
+
+  .forma {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      height: 480px;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+  #forma{
+      background-color: rgb(96, 194, 96);
+      width: 30%;
       margin: auto;
-      
+      margin-top: 20px;
+      max-height: 450px;
+      max-width: 350px;
+      height: 430px;
   }
-  label, input {
-      padding: 10px;
-      margin: 5px;
-      position: relative;
-      left: 10%;
+
+  #ime, #prezime, #mail, #poruka {
+>>>>>>> 1f52b0a49e58101f778189bb46f238f298572460
+      margin: auto;
+      margin: 10px;
   }
+
+  #h3 {
+      padding: 11px;
+  }
+
+  #forma label{
+    padding-left: 15px;
+  }
+
+  #dugme {
+      float: right;
+  }
+
 
 
 

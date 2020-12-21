@@ -5,8 +5,18 @@ body {
     background-color:lightsteelblue;
 }
 
+.responsive {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 80%;
+  background-size: contain;
+}
+
 .galerija {
+  display: inline-table;
     border: 1px solid #ccc;
+    width: 20%;
   }
   
   .galerija:hover {
@@ -14,30 +24,22 @@ body {
   }
   
   .galerija video {
-    width: 100%;
-    height: auto;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
   }
   .galerija img {
-    width: 100%;
-    height: auto;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
     
   }
   
   .opis {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
   }
   
-  * {
-    box-sizing: border-box;
-    
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-  }
   
   @media only screen and (max-width: 700px) {
     .responsive {
