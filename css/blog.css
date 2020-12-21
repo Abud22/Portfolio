@@ -4,6 +4,110 @@ body {
     margin: 0;
     background-color:lightsteelblue;
 }
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10%;
+    padding-top: 20px ;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1, h2 {
+    text-align: center;
+}
+h3 {
+    margin:auto;
+}
+table {
+    width: 80%;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+th {
+    font-size:30px;
+}
+td {
+    text-align: center;
+    height: 30px;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.clanak1 {
+    margin: auto;
+    width: 80%;
+    background-color: coral;
+}
+img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+iframe {
+    margin-bottom: 20%;
+    margin-left: 18%;
+}
+.lista {
+    margin-left: 5%
+}
+p {
+    text-align: center;
+}
+
+.clanak2 {
+    margin: auto;
+    width: 80%;
+    background-color: rgb(241, 140, 24);
+}
+.navi {
+    color:white;
+    display: block;
+    padding: 10px;
+    font-size:20px;
+    text-decoration:none;
+    
+}
+.kontent {
+   
+    list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
